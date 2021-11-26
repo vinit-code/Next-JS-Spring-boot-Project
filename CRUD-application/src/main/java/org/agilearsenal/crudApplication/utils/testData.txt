@@ -1,0 +1,16 @@
+{
+    "firstName": "Vinit",
+    "lastName": "Pandey",
+    "email": "pandeyvinit2018@gmail.com",
+    "mobileNumber": "9721417574",
+    "gender": "Male",
+    "domain": "Intern",
+    "dob": "2002-01-20",
+    "address": "Ram Mandir Lane",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow"
+}
+
+
+update/{empID} is giving 500 for some UUIDs.
+Fix :- We can use UUID.fromString(uuid_string) to convert to valid UUID first, if parsing is not possible then it throws an error.

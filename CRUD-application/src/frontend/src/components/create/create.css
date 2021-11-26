@@ -1,0 +1,18 @@
+.mystyle-create-from-wrapper {
+  margin: 1% auto;
+}
+
+.row {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.error {
+  color: red;
+  margin-top: 1%;
+}
+
+.success {
+  color: green;
+  margin-top: 1%;
+}

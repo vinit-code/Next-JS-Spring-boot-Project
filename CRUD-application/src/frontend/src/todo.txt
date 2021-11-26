@@ -1,0 +1,28 @@
+Todo Portion:
+    Assign onChangeHandlers to gender and domain fields.
+    
+    Provide options for selecting state, and assign onChangeHandler to state field also.
+
+    Add onChange events on every input so that red border on wrong inputs can be removed.
+
+    prepare upate, delete and getAll pages.
+
+    Do some backend developement with spring boot.
+
+--->Come again to front end.
+
+
+
+
+
+Done Portion:
+    Employee Entity will contain following fields:
+        firstName,
+        lastName,
+        email,
+        DOB,
+        mobile number,
+        Domain,
+        Gender,
+
+    Import React Router DOM and then perform needed tweaks. 
